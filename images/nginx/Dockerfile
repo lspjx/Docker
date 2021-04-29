@@ -15,6 +15,6 @@ RUN yum install -y pcre pcre-devel  gcc gcc-c++ wget \
 
 EXPOSE 80
 
-VOLUME [ "/usr/local/nginx/sbin/nginx" ]
+VOLUME [ "/usr/local/nginx/html" ]
 
 ENTRYPOINT /usr/local/nginx/sbin/nginx && tail -f /usr/local/nginx/logs/access.log
