@@ -1,5 +1,5 @@
 FROM docker.io/centos
-MAINTAINER JasonLi li1121567428@live.com
+LABEL maintainer=NGINX Docker <li1121567428@live.com>
 
 ENV NGINX_VERSION=1.19.0
 
